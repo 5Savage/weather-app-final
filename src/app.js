@@ -40,9 +40,20 @@ response.data.condition.icon_url
     iconElement.setAttribute(`alt`, response.data.condition.description);
 }
 
+function search(city){
 let apiKey="1e1dc2b07543227bfo243f03dtab9c5f";
-let city= "New York";
 let apiUrl=`https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`
-
 axios.get(apiUrl).then(displayTemperature);
+}
 
+function handleSubmit(event){
+    event.preventDefault();
+    let cityInputElement=document.querySelector("#city-input");
+    search(cityInputElement.value);
+    console.log(cityInputElement.value);
+}
+
+search("New York");
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
