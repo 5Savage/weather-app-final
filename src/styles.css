@@ -30,6 +30,9 @@ li:first-letter{
 text-transform: capitalize;
 }
 
+a{
+    text-decoration: none;
+}
 .weather-app {
     padding: 20px;
     border: 1px solid #798088;
@@ -62,3 +65,4 @@ text-transform: capitalize;
     font-size: 16px;
     top: -32px;
 }
+
