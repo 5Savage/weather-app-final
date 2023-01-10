@@ -1,14 +1,17 @@
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 h1 {
     color: #878787;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 100;
     line-height: 28px;
     margin-bottom: 0;
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
 
 }
 
@@ -19,12 +22,12 @@ ul {
 li {
     list-style: none;
     color: rgb(135,135,135);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 100;
     line-height: 19px;
-    margin: 0;
+    margin: 3px;
     padding: 0;
-  
+    font-family: 'Rajdhani', sans-serif;
 }
 li:first-letter{
 text-transform: capitalize;
@@ -75,6 +78,8 @@ a{
 .weather-forecast-date{
     font-size: 16px;
     opacity: 0.6;
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
 }
 .weather-forecast-temp{
     font-size: 13px;
