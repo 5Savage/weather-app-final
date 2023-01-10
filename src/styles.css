@@ -1,11 +1,10 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
 h1 {
-    color: #878787;
+    color: white;
     font-size: 30px;
     font-weight: 100;
     line-height: 28px;
@@ -21,13 +20,14 @@ ul {
 }
 li {
     list-style: none;
-    color: rgb(135,135,135);
+    color: white;
     font-size: 18px;
     font-weight: 100;
     line-height: 19px;
     margin: 3px;
     padding: 0;
     font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
 }
 li:first-letter{
 text-transform: capitalize;
@@ -38,8 +38,11 @@ a{
 }
 .weather-app {
     padding: 20px;
-    border: 1px solid #798088;
-    border-radius: 10px;
+    border: 9px ridge #df0c10;
+    border-radius: 19px;
+    background-image: url("/Users/myahsavage/Desktop/weather-app-final/images/colorful-splash.jpg");
+   
+   
 }
 
 .weather-app-wrapper {
@@ -77,13 +80,10 @@ a{
 
 .weather-forecast-date{
     font-size: 16px;
-    opacity: 0.6;
     font-family: 'Rowdies', cursive;
     font-weight: 300;
+    color: black;
 }
 .weather-forecast-temp{
     font-size: 13px;
-}
-.weather-forecast-temp-min{
-    opacity:0.7;
 }
